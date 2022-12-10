@@ -45,7 +45,6 @@ void Calculate(char[][] matrix)
             var isVisible = false;
             int a = 0, b = 0, c = 0, d = 0;
 
-
             for (int i = y - 1; i >= 0; i--)
             {
                 a++;
