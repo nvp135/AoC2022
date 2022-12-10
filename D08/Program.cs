@@ -115,10 +115,8 @@ void Calculate(char[][] matrix)
                 visibility[x][y] = true;
 
             var scScore = a * b * c * d;
-            if (scScore > scenicScore)
-            {
-                scenicScore = scScore;
-            }
+
+            scenicScore = Math.Max(scenicScore, scScore);
         }
     }
 
